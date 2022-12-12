@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agmplugin version="1.0">
+    <info>
+        <github>shadownetdev1/AGM-Flash@V1</github>
+        <icon></icon>
+        <executable type='python'>plugin.py</executable>
+        <!--entries below this line can be copied as many times as needed-->
+        <author>shadownetdev1</author>
+        <fileextension>swf</fileextension>
+    </info>
+</agmplugin>
