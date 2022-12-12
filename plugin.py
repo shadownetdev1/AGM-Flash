@@ -44,7 +44,7 @@ if not os.path.exists(flashPath) or not os.path.isfile(flashPath):
         title="Select a Flash Player Projector 32 executable",
     )
     if os.path.exists(filename) and os.path.isfile(filename):
-        if '.' in os.path.basename(filename):
+        if '.' not in os.path.basename(filename):
             if os.access(filename, os.X_OK):
                 shutil.copy(filename, os.path.join(d, 'bin', 'flashplayer_32'))
             else:
